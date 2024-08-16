@@ -7,7 +7,11 @@ gem 'rails', '~> 7.0.4', '>= 7.0.4.3'
 
 gem 'sprockets-rails'
 
-gem 'pg', '~> 1.1'
+gem 'rails_12factor', group: :production
+
+
+gem 'sqlite3', group: :development
+gem 'pg', '~> 1.1', group: :production
 
 gem 'puma', '~> 5.0'
 
