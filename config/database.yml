@@ -21,7 +21,3 @@ production:
   username: BookFlix
   password: <%= ENV["BookFlix_DATABASE_PASSWORD"] %>
 
-production:
-  <<: *default
-  adapter: postgresql
-  database: db/production.sqlite3
